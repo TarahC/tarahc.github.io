@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, my name is Tarah Cavallaro (or Munk) I am a mechanical engineer actively transferring into cybersecurity.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My background in engineering has led me to become an analytical, results-driven, and innovative professional, and to possess a
+strong technical background including technical writing; system planning, designing, and testing; continuous
+improvement; data analysis; and project coordination. Armed with exceptional skills in project
+documentation, project leadership, as well as communication at all technical levels I feel ready to take the steps necessary to become a cyber security professional.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I'm excited to share this journey with all of you. Hopefully, some of my struggles and triumphs will help the next person along their path.
