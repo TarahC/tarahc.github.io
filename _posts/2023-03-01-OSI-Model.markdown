@@ -32,7 +32,7 @@ If we look at the example of an email client, the application layer would consis
 
 ## (6) Presentation
 
-The main purpose of this layer is to act as a translator between data coming up form layer 5 and the application layer. The presentation layer is where standardization starts to take place so that data sent between different software are handled correctly on both.
+The main purpose of this layer is to act as a translator between data coming up from layer 5 and the application layer. The presentation layer is where standardization starts to take place so that data sent between different software applications are handled correctly on both.
 
 Back to our email example, the presentation layer is what allows me to email someone from Gmail to Outlook and have the contents of the message display the same way.
 
@@ -44,7 +44,7 @@ Here, the data within our email message will be broken down into packets. This i
 
 ## (4) Transport
 
-The transport layer does exactly what it's named. It transports packets from one device to another. This layer will can use two different protocols to send the data:
+The transport layer does exactly what it's named. It transports packets from one device to another. This layer can use two different protocols to send the data:
 
     - TCP
     - UDP
@@ -57,7 +57,7 @@ Typically, emails would be sent using TCP because the entire message needs to ar
 
 ## (3) Network
 
-The network layer is where routing and reassembly of the data takes place. Routing is a process the determines the most "optimal" path for the data to travel on, and can be done using different protocols which determine what constitutes the "optimal" path. A couple of these paths include OSFP or Open Shortest Path First and RIP or Routing Information Protocol.
+The network layer is where routing and reassembly of the data takes place. Routing is a process that determines the most "optimal" path for the data to travel on, and can be done using different protocols which determine what constitutes the "optimal" path. A couple of these paths include OSFP or Open Shortest Path First and RIP or Routing Information Protocol.
 
 At this point our email data is going to act much the same as any other kind of data, and what routing protocol is used will have more to do with the system itself and less to do with the data type.
 
