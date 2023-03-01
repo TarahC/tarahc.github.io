@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "OSI Model"
+date:   2023-03-01 08:29:00 -0500
+categories: Hello World
+---
+If you, like me, have trouble remembering and keeping straight all seven levels of the OSI model, I would recommend trying the TryHackMe OSI model room. I think it is one of the most clear and succinct explanations of the model I've seen going through my studies. Also, there is a fun little mini game at the end to help you remember!
+
+Can you beat my high score of 24 seconds?
+https://lnkd.in/gizW86e9
+
+P.S. I know seven is a lot, but we've got this!
+
+Munk
