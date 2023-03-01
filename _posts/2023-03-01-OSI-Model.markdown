@@ -4,10 +4,65 @@ title:  "OSI Model"
 date:   2023-03-01 08:29:00 -0500
 categories: Cybersecurity Fundamentals
 ---
-If you, like me, have trouble remembering and keeping straight all seven levels of the OSI model, I would recommend trying the TryHackMe OSI model room. I think it is one of the most clear and succinct explanations of the model I've seen going through my studies. Also, there is a fun little mini game at the end to help you remember!
+If you, like me, have trouble remembering and keeping straight all seven levels of the OSI model, I would recommend trying the TryHackMe OSI model room. (It may be premum, but you can access the video on youtube here: https://www.youtube.com/watch?v=hWIktHvNjeM). I think it is one of the most clear and succinct explanations of the model I've seen going through my studies. Also, there is a fun little mini game at the end to help you remember!
 
 Can you beat my high score of 24 seconds?
 https://lnkd.in/gizW86e9
+
+OSI Model
+
+7. Application
+6. Presentation
+5. Session
+4. Transport
+3. Network
+2. Data Link
+1. Physical
+
+7. Application
+
+The layer we are all probably most familiar with. This is the layer we typically interact with on a day-to-day basis using the software's GUI (Graphical User Interface).
+
+If we look at the example of an email client, the application layer would consist of the actual appearance of the page and interactable icons.
+
+6. Presentation
+
+The main purpose of this layer is to act as a translator between data coming up form layer 5 and the application layer. The presentation layer is where standardization starts to take place so that data sent between differnt softwares are handled correctly on both.
+
+Back to our email example, the presentation layer is what allows me to email someone from Gmail to Outlook and have the contents of the message display the same way.
+
+5. Session
+
+The session layer creates a connection between end devices (computers, tablets, phones, etc.). When the connection is established, a session is created. At this layer, the data will then be divided up into smaller chunks or packets to be sent.
+
+Here, the data within our email message will be broken down into packets. This is important because if the connection is lost then only the packets that weren't sent yet will need resent, not the entire message.
+
+4. Transport
+
+The transport layer does exactly what it's named. It transports packets from one device to another. This layer will can use two differnt protocols to send the data:
+
+    - TCP
+    - UDP
+
+TCP or Transmission Control Protocol is designed to guarntee the accuracy of the sent data, is capable of synchronizing the two devices to prevent each of them from being flooded with data, and performs multiple processes to ensure reliability. Unfortunately, this does make TCP considerably slower than UDP which can be a problem because the slow connection can bottleneck the devices because TCP reserves the connection for the entire tranmission time.
+
+UDP or User Datagram Protocol is must faster than TCP, leaves the application layer or user software to decide if there is any control over how quickly the packets are sent, and does not reserve a continuous connection on a device as TCP does. Unfortunately, UDP does not care if the data is received and this can result in a poor user experience if the connection is unstable.
+
+Typically, emails would be sent using TCP because the entire message needs to arrive intact on the other side.
+
+3. Network
+
+The network layer is where routing and reassembly of the data takes place. Routing is a process the determines the most "optimal" path for the data to travel on, and can be done using differnt protocols which determine what constitues the "optimal" path. A couple of these paths include OSFP or Open Shortest Path First and RIP or Routing Information Protocol.
+
+At this point our email data is going to act much the same as any other kind of data, and what routing protocol is used will have more to do with the system itself and less to do with the data type.
+
+2. Data Link
+
+This layer's job is to present the data in a format suitable for transmission. Part of how it does this is by adding the MAC (Media Access Control) address of the receiving point to each packet it receives from the network layer. 
+
+1. Physical
+
+Lastly, the physical layer is probably the simplist to understand. This layer consists of the physical components used to connect devices together such as switches, routers, hubs, and the cables between them. When considering the internet of things (IoT) this could also include lights, valves, door locks, or any number of physical things.
 
 P.S. I know seven is a lot, but we've got this!
 
