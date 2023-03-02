@@ -23,7 +23,7 @@ email: woodford.tarah@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   One Munk's Journey into Cybersecurity
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tarahc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NA
 github_username:  TarahC
 
